@@ -1,0 +1,43 @@
+h1 {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .Mobile {
+    display: block;
+  }
+  body {
+    background-color: lightblue;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .Tablet {
+    display: block;
+  }
+  body {
+    background-color: lightgreen;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .Laptop {
+    display: block;
+  }
+  body {
+    background-color: coral;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .Desktop {
+    display: block;
+  }
+  body {
+    background-color: lightslategray;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .Huge {
+    display: block;
+  }
+  body {
+    background-color: lightcyan;
+  }
+}
